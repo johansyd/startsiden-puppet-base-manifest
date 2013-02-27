@@ -1,0 +1,23 @@
+## name: startsiden-puppet-base-manifest
+#
+### author: Johan Sydseter
+#
+### source: https://github.com/johansyd/startsiden-puppet-base-manifest
+#
+### license: GNU
+#
+### summary: Puppet manifests for the base configuration
+#
+### description: Manifests that defines the staging of puppet configuration
+autoinstallver: 1
+name: startsiden-puppet-base-manifest
+version: 13.09-01
+excludeext:
+  - .git
+  - .gitignore
+  - .md
+excludedir:
+  - t
+chroot_test: 1
+installdir: /etc/puppet/manifests/
+tests: t/
